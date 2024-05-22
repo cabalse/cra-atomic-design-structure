@@ -16,31 +16,5 @@ module.exports = {
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh', '@stylistic/js'],
-  rules: {
-    'max-len': ["warn", { "code": 80 }],
-    'react/jsx-no-target-blank': 'off',
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
-    'react/prop-types': 0,
-    'indent': ['warn', 2],
-    'quotes': ['warn', 'single'],
-    'no-multiple-empty-lines': ["warn", { "max": 1, "maxEOF": 0 }],
-    'eol-last': ["warn", "always"],
-    'sort-imports': ['warn', {
-      'ignoreCase': false,
-      'ignoreDeclarationSort': false,
-      'ignoreMemberSort': false,
-      'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'],
-      'allowSeparatedGroups': true
-    }],
-    'semi-spacing': "warn",
-    'comma-spacing': ["error", { "before": false, "after": true }],
-    'prefer-const': "warn",
-    "key-spacing": ['warn', {
-      "beforeColon": false,
-      "afterColon": true
-    }]
-  },
+  rules: {},
 }
